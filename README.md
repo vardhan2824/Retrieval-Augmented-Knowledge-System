@@ -40,8 +40,11 @@ pip install -r requirements.txt
 
 ▶️ Usage  
 uvicorn app:app --reload  
+
 Upload documents  
+
 Ask queries via API or UI  
+
 Get context-aware responses  
 
 📌 Example Use Case  
