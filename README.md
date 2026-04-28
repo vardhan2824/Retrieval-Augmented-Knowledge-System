@@ -9,17 +9,18 @@ A system that retrieves relevant data from custom sources and generates accurate
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline that combines semantic search with language models to provide reliable answers grounded in external data. Instead of relying solely on model knowledge, the system retrieves relevant context and uses it to generate more accurate and meaningful responses.
 
-🧠 Key Features
-📄 Document ingestion and processing
-🔍 Semantic search using embeddings
-🧩 Context-aware response generation
-🔗 Integration with vector databases
-⚡ Fast API-based interaction
-🏗️ Architecture
-User Query → API (FastAPI) → Retriever → LLM → Response
-                     ↓
-              Vector Database
-🛠️ Tech Stack
+🧠 Key Features  
+📄 Document ingestion and processing  
+🔍 Semantic search using embeddings  
+🧩 Context-aware response generation  
+🔗 Integration with vector databases  
+⚡ Fast API-based interaction  
+🏗️ Architecture  
+User Query → API (FastAPI) → Retriever → LLM → Response  
+                     ↓  
+              Vector Database  
+              
+🛠️ Tech Stack  
 Backend: FastAPI
 LLM Integration: OpenAI / Hugging Face
 Embeddings: Sentence Transformers
