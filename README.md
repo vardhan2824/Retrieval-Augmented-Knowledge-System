@@ -16,20 +16,24 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that com
 🔗 Integration with vector databases  
 ⚡ Fast API-based interaction  
 🏗️ Architecture  
+
 User Query → API (FastAPI) → Retriever → LLM → Response  
-                   ↓  
+                  ↓  
               Vector Database  
               
 🛠️ Tech Stack  
-Backend: FastAPI  
-LLM Integration: OpenAI / Hugging Face  
-Embeddings: Sentence Transformers  
-Vector Database: FAISS / Pinecone  
-Orchestration: LangChain / LangGraph  
+- Backend: FastAPI  
+- LLM Integration: OpenAI / Hugging Face  
+- Embeddings: Sentence Transformers  
+- Vector Database: FAISS / Pinecone  
+- Orchestration: LangChain / LangGraph  
 
 📦 Installation  
+
 git clone https://github.com/your-username/repo-name.git  
+
 cd repo-name  
+
 pip install -r requirements.txt  
 
 ▶️ Usage  
@@ -39,15 +43,15 @@ Ask queries via API or UI
 Get context-aware responses  
 
 📌 Example Use Case  
-Querying PDFs or notes  
-Knowledge base assistants  
-Internal documentation search  
+- Querying PDFs or notes  
+- Knowledge base assistants  
+- Internal documentation search  
 
 🎯 Future Improvements  
-Add conversation memory  
-Improve retrieval accuracy  
-Implement evaluation metrics  
-Enhance UI/UX  
+- Add conversation memory  
+- Improve retrieval accuracy  
+- Implement evaluation metrics  
+- Enhance UI/UX  
 
 🤝 Contribution
 
