@@ -17,9 +17,11 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that com
 ⚡ Fast API-based interaction  
 🏗️ Architecture  
 
-User Query → API (FastAPI) → Retriever → LLM → Response  
-                  ↓  
-              Vector Database  
+```text
+User Query → API (FastAPI) → Retriever → LLM → Response
+                ↓
+         Vector Database
+```  
               
 🛠️ Tech Stack  
 - Backend: FastAPI  
