@@ -23,7 +23,7 @@ students = {
     
     }
 }
-
+#to run the server : uvicorn myapi:app --reload
 @app.get("/")
 async def root():
     return {"name": "Hello World"}
