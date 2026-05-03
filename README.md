@@ -32,7 +32,7 @@ User Query → API (FastAPI) → Retriever → LLM → Response
 
 📦 Installation  
 
-git clone https://github.com/your-username/repo-name.git  
+git clone https://github.com/vardhan2824/Retrieval-Augmented-Knowledge-System  
 
 cd repo-name  
 
